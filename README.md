@@ -187,10 +187,10 @@ PORT=5000
 
 ## 🖼️ Screenshots
 ### Add Contact Form
-![Add Contact Form Example](https://via.placeholder.com/800x400)
+![Add Contact Form Example](Add%20contact.png)
 
 ### Contact Table
-![Contact Table Example](https://via.placeholder.com/800x400)
+![Contact Table Example](contact%20list.png)
 
 ---
 
