@@ -194,6 +194,19 @@ PORT=5000
 
 ---
 
+## Difficulties Faced and How They Were Handled
+Database Connectivity:
+
+**1.** Challenge: Faced MongoDB connection timeouts and errors during database setup.
+Solution: Added retry logic and increased timeout settings in Mongoose. Verified MongoDB service status and connection string for accuracy.
+Error Handling:
+
+**2.** Challenge: Ensuring meaningful feedback for users when API or form submissions failed.
+Solution: Wrapped backend routes in try-catch blocks, returning descriptive error messages. On the frontend, displayed alerts and used helperText for field-specific errors.
+Frontend-Backend Integration:
+
+**3.** Challenge: Debugging and handling **axios requests** for proper communication between frontend and backend.
+Solution: Logged API requests and responses to identify issues, ensuring consistent endpoint paths and proper request payloads.
 ## 🤝 Contributing
 Feel free to fork the repository and submit pull requests for improvements or bug fixes.
 
